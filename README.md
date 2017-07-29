@@ -43,14 +43,14 @@ for each directory containing header files.
     #build target
     -target bin/a.out
 
-### Possible produced ninja build script
+### Possible Produced Ninja Build Script
 
     #ginger ninja file
 
     target = bin/a.out
     builddir = obj
     cc = clang
-    cf = -Wall -Werror -g -I "."
+    cf = -Wall -Werror -g -I "./inc"
     ll = clang
     lf = -g
 
