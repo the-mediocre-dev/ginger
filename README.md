@@ -1,2 +1,2 @@
 # ginger
-Ninja build file generator in golang
+Ninja build file generator for C/C++ projects
