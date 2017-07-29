@@ -1,5 +1,4 @@
 # Ginger
-=======
 
 Ginger is a simple **ninja build file generator** for C/C++ projects.
 
