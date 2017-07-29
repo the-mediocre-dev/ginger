@@ -1,4 +1,4 @@
-#Ginger
+# Ginger
 =======
 
 Ginger is a simple **ninja build file generator** for C/C++ projects.
@@ -7,11 +7,11 @@ Transforms a ginger file into a ninja file by recursively searching a project
 directory, creating a complation rule for each source file and an include flag 
 for each directory containing header files.
 
-###Usage
+### Usage
 
     ginger.exe -i=build.ginger -o=build.ninja
 
-###Ginger File Format
+### Ginger File Format
 
     #              comment line
     -builddir      build directory
@@ -21,7 +21,7 @@ for each directory containing header files.
     -lf            linker flag
     -target        build target
 
-###Sample Ginger Build Script
+### Sample Ginger Build Script
 
     #compiler
     -cc clang
@@ -43,7 +43,7 @@ for each directory containing header files.
     #build target
     -target bin/a.out
 
-###Possible produced ninja build script
+### Possible produced ninja build script
 
     #ginger ninja file
 
