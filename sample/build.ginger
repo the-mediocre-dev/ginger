@@ -1,0 +1,21 @@
+# sample ginger build script
+
+#compiler
+-cc clang
+
+#compiler flags
+-cf -Wall
+-cf -Werror
+-cf -g
+
+#linker
+-ll clang
+
+#linker flags
+-lf -g
+
+#build directory
+-builddir obj
+
+#build target
+-target bin/a.out
